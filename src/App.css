@@ -56,7 +56,7 @@ p {
   color: var(--grey);
   text-decoration: none;
   cursor: pointer;
-  display: block;
+  display: inline-block;
   padding-top: .5em;
 }
 
