@@ -22,15 +22,16 @@ p {
   padding: 0 .5em;
 }
 
-.header--logo:hover, .header--logo:focus, .header--logo:active{
+.header--logo:hover,
+.header--logo:focus,
+.header--logo:active {
   text-decoration: none;
 }
 
 .cards {
-  padding: 4em;
+  padding: 7em 1em 2em 1em;
   display: grid;
   row-gap: 3em;
-  padding-top: 9em;
 }
 
 
@@ -39,11 +40,15 @@ p {
   height: 10em;
   object-fit: cover;
   border-radius: 1em;
-  padding-bottom: 1em;
+}
+
+.card--location{
+  padding-top: 1em;
 }
 
 .location--icon {
-  width: .5em;
+  width: 10px;
+  height: auto;
 }
 
 .location {
@@ -70,7 +75,7 @@ p {
 .location--title,
 .location,
 .location--visit-duration,
-.description {
+.location--description {
   color: var(--darkBlue);
 }
 
@@ -80,7 +85,7 @@ p {
   padding-bottom: 1em;
 }
 
-.description {
+.location--description {
   line-height: 1.5em;
 }
 
@@ -103,6 +108,7 @@ p {
 
   .cards {
     row-gap: 2em;
+    padding: 9em 4em 4em 4em;
   }
 
   .location--link {
