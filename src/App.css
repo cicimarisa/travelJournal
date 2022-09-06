@@ -30,6 +30,7 @@ p {
   padding: 4em;
   display: grid;
   row-gap: 3em;
+  padding-top: 9em;
 }
 
 
