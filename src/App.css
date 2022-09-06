@@ -88,9 +88,8 @@ p {
 @media (min-width: 700px) {
   .card {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: auto 1fr;
     gap: 2em;
-    justify-content: space-between;
   }
 
   .card--image {
