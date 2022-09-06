@@ -1,0 +1,18 @@
+
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+:root {
+  --white: #FFFFFF;
+  --grey: #918E9B;
+  --peach: #F55A5A;
+  --darkBlue: #2B283A;
+}
+
+
+body{
+  margin: 0;
+  background-color: var(--white);
+}
