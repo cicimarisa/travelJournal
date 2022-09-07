@@ -1,5 +1,3 @@
-
-
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
 }
@@ -12,8 +10,14 @@
 }
 
 
-body{
+body {
   margin: 0;
   background-color: var(--white);
   text-align: center;
+}
+
+@media (min-width: 700px) {
+  body {
+    text-align: left;
+  }
 }
